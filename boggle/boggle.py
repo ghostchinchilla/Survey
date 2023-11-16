@@ -16,6 +16,7 @@ class Boggle():
         dict_file = open(dict_path)
         words = [w.strip() for w in dict_file]
         dict_file.close()
+     
         return words
 
     def make_board(self):
